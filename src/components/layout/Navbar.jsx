@@ -95,18 +95,25 @@ export default function Navbar() {
             {/* Logo on Left */}
             <div className="flex-shrink-0">
               <Link to="/" className="flex items-center gap-3 group">
-                <svg className="w-10 h-10 flex-shrink-0 transition-transform duration-355 group-hover:rotate-6" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-                  <rect width="40" height="40" rx="12" fill="#0F172A" />
-                  <path d="M20 8 L30 14 V26 L20 32 L10 26 V14 L20 8 Z" stroke="#2563EB" strokeWidth="2" strokeLinejoin="round" />
-                  <path d="M16 16 L12 20 L16 24" stroke="#06B6D4" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
-                  <path d="M24 16 L28 20 L24 24" stroke="#06B6D4" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
-                  <path d="M22 15 L18 25" stroke="#2563EB" strokeWidth="2.5" strokeLinecap="round" />
+                <svg className="w-10 h-10 flex-shrink-0 transition-transform duration-350 group-hover:scale-105" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                  <defs>
+                    <linearGradient id="logo-green-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+                      <stop offset="0%" stopColor="#22C55E" />
+                      <stop offset="100%" stopColor="#16A34A" />
+                    </linearGradient>
+                  </defs>
+                  <rect width="40" height="40" rx="11" fill="url(#logo-green-grad)" />
+                  <path d="M15 15 L10 20 L15 25" stroke="#FFFFFF" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" />
+                  <path d="M25 15 L30 20 L25 25" stroke="#FFFFFF" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" />
+                  <path d="M20 12 V28 M16 20 H24" stroke="#FFFFFF" strokeWidth="2" strokeLinecap="round" />
+                  <circle cx="20" cy="12" r="1.5" fill="#16A34A" />
+                  <circle cx="20" cy="28" r="1.5" fill="#16A34A" />
                 </svg>
-                <div className="flex flex-col">
-                  <span className="font-display font-black text-xl tracking-tight text-gray-900 dark:text-white leading-none">
-                    Tech<span className="text-blue-600">Axioz</span>
+                <div className="flex flex-col justify-center">
+                  <span className="font-sans font-bold text-xl text-gray-900 dark:text-white leading-none antialiased tracking-normal">
+                    Tech<span className="text-green-500">Axioz</span>
                   </span>
-                  <span className="text-[10px] tracking-widest text-slate-400 dark:text-slate-500 font-bold mt-1 leading-tight uppercase font-sans">
+                  <span className="text-[10px] tracking-widest text-slate-400 dark:text-slate-500 font-bold mt-1 leading-tight uppercase font-sans antialiased">
                     Learn. Build. Grow.
                   </span>
                 </div>

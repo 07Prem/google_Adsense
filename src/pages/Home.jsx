@@ -2,13 +2,13 @@ import React, { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { 
   ChevronRight, ArrowRight, BookOpen, Terminal, Shield, Cpu, HelpCircle, 
-  Star, Search, Award, TrendingUp, Compass, MessageSquare, Quote, Zap, Layers, Play, Mail 
+  Star, Search, Award, TrendingUp, Compass, MessageSquare, Quote, Zap, Layers, Play, Mail,
+  ShieldCheck, Rocket
 } from 'lucide-react';
 import { motion } from 'framer-motion';
 
 import SEOHead from '../components/seo/SEOHead';
 import ArticleCard from '../components/articles/ArticleCard';
-import TopBannerAd from '../components/ads/TopBannerAd';
 import SidebarAd from '../components/ads/SidebarAd';
 import ResponsiveAd from '../components/ads/ResponsiveAd';
 
@@ -96,10 +96,7 @@ export default function Home() {
       />
 
       <div className="bg-white dark:bg-slate-900 transition-colors duration-300 min-h-screen">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
-          
-          {/* Top Banner Ad Placements */}
-          <TopBannerAd />
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-4 pb-6">
 
           {/* =========================================================
               2. HERO SECTION
@@ -160,8 +157,8 @@ export default function Home() {
                 </div>
               </div>
 
-              {/* Hero Image (Right Column: Custom graphic SVG layout) */}
-              <div className="lg:col-span-5 flex justify-center">
+              {/* Hero Image (Right Column: Custom graphic SVG layout & Info Panel) */}
+              <div className="lg:col-span-5 flex flex-col items-center justify-center">
                 <svg className="w-full max-w-[340px] md:max-w-[380px] h-auto drop-shadow-xl" viewBox="0 0 400 320" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
                   {/* Browser Container */}
                   <rect x="10" y="20" width="380" height="280" rx="18" fill="white" stroke="#E2E8F0" strokeWidth="4" />
@@ -189,6 +186,83 @@ export default function Home() {
                   <rect x="85" y="180" width="100" height="8" rx="4" fill="#94A3B8" />
                   <rect x="85" y="195" width="60" height="6" rx="3" fill="#CBD5E1" />
                 </svg>
+
+                {/* Why Choose TechAxioz Trust Section */}
+                <div className="w-full max-w-[420px] mt-6 pt-6 border-t border-slate-100 dark:border-slate-800 font-sans">
+                  <h3 className="font-display font-extrabold text-base text-gray-900 dark:text-white mb-2 text-center lg:text-left">
+                    Why Choose TechAxioz?
+                  </h3>
+                  <p className="text-xs text-gray-500 dark:text-slate-400 leading-relaxed mb-5 text-center lg:text-left">
+                    TechAxioz is a trusted technology resource created to help developers, students, and technology enthusiasts learn faster, solve problems efficiently, and stay updated with the latest trends in software, hardware, AI, cybersecurity, and web development.
+                  </p>
+                  
+                  {/* Feature Cards Grid */}
+                  <div className="grid grid-cols-1 gap-3.5 mb-5">
+                    {/* Card 1 */}
+                    <div className="p-3.5 rounded-[18px] bg-white dark:bg-slate-900 border border-slate-200/60 dark:border-slate-800 shadow-[0_4px_12px_rgba(0,0,0,0.06)] hover:-translate-y-0.5 hover:shadow-md transition-all duration-200 flex gap-3.5 group">
+                      <div className="w-9 h-9 rounded-full bg-green-50 dark:bg-green-950/20 text-green-500 flex items-center justify-center flex-shrink-0 group-hover:scale-105 transition-transform">
+                        <ShieldCheck className="w-5 h-5" />
+                      </div>
+                      <div>
+                        <h4 className="font-display font-bold text-xs sm:text-sm text-gray-900 dark:text-white mb-0.5">Trusted & Original Content</h4>
+                        <p className="text-[11px] text-gray-500 dark:text-slate-400 leading-normal">Every article is researched, practical, and written to provide accurate and original technical information.</p>
+                      </div>
+                    </div>
+
+                    {/* Card 2 */}
+                    <div className="p-3.5 rounded-[18px] bg-white dark:bg-slate-900 border border-slate-200/60 dark:border-slate-800 shadow-[0_4px_12px_rgba(0,0,0,0.06)] hover:-translate-y-0.5 hover:shadow-md transition-all duration-200 flex gap-3.5 group">
+                      <div className="w-9 h-9 rounded-full bg-green-50 dark:bg-green-950/20 text-green-500 flex items-center justify-center flex-shrink-0 group-hover:scale-105 transition-transform">
+                        <BookOpen className="w-5 h-5" />
+                      </div>
+                      <div>
+                        <h4 className="font-display font-bold text-xs sm:text-sm text-gray-900 dark:text-white mb-0.5">Beginner Friendly Tutorials</h4>
+                        <p className="text-[11px] text-gray-500 dark:text-slate-400 leading-normal">Step-by-step guides designed for beginners as well as experienced developers.</p>
+                      </div>
+                    </div>
+
+                    {/* Card 3 */}
+                    <div className="p-3.5 rounded-[18px] bg-white dark:bg-slate-900 border border-slate-200/60 dark:border-slate-800 shadow-[0_4px_12px_rgba(0,0,0,0.06)] hover:-translate-y-0.5 hover:shadow-md transition-all duration-200 flex gap-3.5 group">
+                      <div className="w-9 h-9 rounded-full bg-green-50 dark:bg-green-950/20 text-green-500 flex items-center justify-center flex-shrink-0 group-hover:scale-105 transition-transform">
+                        <Cpu className="w-5 h-5" />
+                      </div>
+                      <div>
+                        <h4 className="font-display font-bold text-xs sm:text-sm text-gray-900 dark:text-white mb-0.5">Latest Technology Updates</h4>
+                        <p className="text-[11px] text-gray-500 dark:text-slate-400 leading-normal">Stay informed about AI tools, programming languages, cybersecurity, laptops, smartphones, and emerging technologies.</p>
+                      </div>
+                    </div>
+
+                    {/* Card 4 */}
+                    <div className="p-3.5 rounded-[18px] bg-white dark:bg-slate-900 border border-slate-200/60 dark:border-slate-800 shadow-[0_4px_12px_rgba(0,0,0,0.06)] hover:-translate-y-0.5 hover:shadow-md transition-all duration-200 flex gap-3.5 group">
+                      <div className="w-9 h-9 rounded-full bg-green-50 dark:bg-green-950/20 text-green-500 flex items-center justify-center flex-shrink-0 group-hover:scale-105 transition-transform">
+                        <Rocket className="w-5 h-5" />
+                      </div>
+                      <div>
+                        <h4 className="font-display font-bold text-xs sm:text-sm text-gray-900 dark:text-white mb-0.5">Optimized Learning Resources</h4>
+                        <p className="text-[11px] text-gray-500 dark:text-slate-400 leading-normal">Curated content that helps you build projects, improve coding skills, and solve real-world development challenges.</p>
+                      </div>
+                    </div>
+                  </div>
+
+                  {/* Clean stats row below cards */}
+                  <div className="grid grid-cols-2 gap-x-4 gap-y-2 pt-4 border-t border-slate-100 dark:border-slate-800 text-[11px] text-gray-600 dark:text-slate-400 font-semibold">
+                    <div className="flex items-center gap-1.5 justify-center lg:justify-start">
+                      <span className="text-green-500 font-bold">✓</span>
+                      <span>100+ In-Depth Articles</span>
+                    </div>
+                    <div className="flex items-center gap-1.5 justify-center lg:justify-start">
+                      <span className="text-green-500 font-bold">✓</span>
+                      <span>20+ Tech Categories</span>
+                    </div>
+                    <div className="flex items-center gap-1.5 justify-center lg:justify-start">
+                      <span className="text-green-500 font-bold">✓</span>
+                      <span>Updated Weekly</span>
+                    </div>
+                    <div className="flex items-center gap-1.5 justify-center lg:justify-start">
+                      <span className="text-green-500 font-bold">✓</span>
+                      <span>Free Learning Resources</span>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </section>
