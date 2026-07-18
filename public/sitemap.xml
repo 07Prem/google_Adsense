@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <!-- Core Pages -->
+  <url><loc>https://demoadsense.com/</loc><changefreq>daily</changefreq><priority>1.0</priority></url>
+  <url><loc>https://demoadsense.com/articles</loc><changefreq>weekly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://demoadsense.com/about</loc><changefreq>monthly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://demoadsense.com/contact</loc><changefreq>monthly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://demoadsense.com/authors</loc><changefreq>weekly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://demoadsense.com/careers</loc><changefreq>monthly</changefreq><priority>0.4</priority></url>
+  <url><loc>https://demoadsense.com/write-for-us</loc><changefreq>monthly</changefreq><priority>0.4</priority></url>
+  <url><loc>https://demoadsense.com/advertise</loc><changefreq>monthly</changefreq><priority>0.4</priority></url>
+
+  <!-- Policies -->
+  <url><loc>https://demoadsense.com/privacy</loc><changefreq>monthly</changefreq><priority>0.3</priority></url>
+  <url><loc>https://demoadsense.com/disclaimer</loc><changefreq>monthly</changefreq><priority>0.3</priority></url>
+  <url><loc>https://demoadsense.com/terms</loc><changefreq>monthly</changefreq><priority>0.3</priority></url>
+  <url><loc>https://demoadsense.com/cookie</loc><changefreq>monthly</changefreq><priority>0.3</priority></url>
+  <url><loc>https://demoadsense.com/dmca</loc><changefreq>monthly</changefreq><priority>0.3</priority></url>
+  <url><loc>https://demoadsense.com/editorial</loc><changefreq>monthly</changefreq><priority>0.3</priority></url>
+
+  <!-- Articles (30 items) -->
+  <url><loc>https://demoadsense.com/article/react-debugging-tips</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://demoadsense.com/article/top-vs-code-extensions</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://demoadsense.com/article/best-laptops-under-1000</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://demoadsense.com/article/best-phones-for-students</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://demoadsense.com/article/linux-commands-for-beginners</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://demoadsense.com/article/javascript-tricks-clean-code</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://demoadsense.com/article/react-performance-optimization</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://demoadsense.com/article/python-automation-scripts</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://demoadsense.com/article/cybersecurity-basics-developers</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://demoadsense.com/article/windows-optimization-guide</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://demoadsense.com/article/github-collaboration-guide</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://demoadsense.com/article/git-tips-every-developer-should-know</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://demoadsense.com/article/node-js-complete-guide</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://demoadsense.com/article/rest-api-design-tutorial</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://demoadsense.com/article/rest-vs-graphql</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://demoadsense.com/article/chrome-extensions-developer-productivity</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://demoadsense.com/article/ssd-buying-guide</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://demoadsense.com/article/laptop-buying-guide</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://demoadsense.com/article/coding-interview-preparation-guide</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://demoadsense.com/article/frontend-roadmap-2026</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://demoadsense.com/article/backend-roadmap-2026</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://demoadsense.com/article/ai-coding-tools</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://demoadsense.com/article/chatgpt-tips-for-developers</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://demoadsense.com/article/claude-vs-chatgpt</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://demoadsense.com/article/best-monitors-for-coding</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://demoadsense.com/article/mechanical-keyboards-buying-guide</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://demoadsense.com/article/ultimate-developer-desk-setup</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://demoadsense.com/article/programming-mistakes-to-avoid</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://demoadsense.com/article/clean-code-principles-developers</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://demoadsense.com/article/ultimate-debugging-checklist</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+</urlset>

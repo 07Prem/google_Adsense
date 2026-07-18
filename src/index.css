@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
+@import "tailwindcss";
+
+@variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --font-sans: 'Inter', system-ui, -apple-system, sans-serif;
+  --font-display: 'Inter', system-ui, -apple-system, sans-serif;
+  
+  --color-primary-50: #f0fdf4;
+  --color-primary-100: #dcfce7;
+  --color-primary-200: #bbf7d0;
+  --color-primary-300: #86efac;
+  --color-primary-400: #4ade80;
+  --color-primary-500: #22c55e; /* green-500 */
+  --color-primary-600: #16a34a; /* green-600 */
+  --color-primary-700: #15803d;
+  --color-primary-800: #166534;
+  --color-primary-900: #14532d;
+}
+
+@layer base {
+  body {
+    font-family: var(--font-sans);
+    @apply bg-white text-gray-700 dark:bg-slate-900 dark:text-slate-300 transition-colors duration-200 antialiased selection:bg-green-100 selection:text-green-900;
+  }
+
+  /* Headings: Bold, Large, Modern, with proper weights */
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-display);
+    @apply tracking-tight font-bold text-gray-900 dark:text-white;
+  }
+}
+
+/* Custom styles for components */
+.shadow-soft {
+  box-shadow: 0 10px 35px rgba(0, 0, 0, 0.05);
+}
+.shadow-soft-hover {
+  transition: box-shadow 0.25s cubic-bezier(0.4, 0, 0.2, 1), transform 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+}
+.shadow-soft-hover:hover {
+  box-shadow: 0 15px 45px rgba(0, 0, 0, 0.08);
+}
+
+.glassmorphism {
+  background: rgba(255, 255, 255, 0.75);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(229, 231, 235, 0.7);
+}
+
+.dark .glassmorphism {
+  background: rgba(15, 23, 42, 0.8);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(51, 65, 85, 0.4);
+}
+
+/* Scrollbar customizations */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #e2e8f0;
+  border-radius: 999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #cbd5e1;
+}
+.dark ::-webkit-scrollbar-thumb {
+  background: #334155;
+}
+.dark ::-webkit-scrollbar-thumb:hover {
+  background: #475569;
+}
+
+/* Custom utilities */
+.prose pre {
+  @apply rounded-2xl border border-slate-200/80 bg-slate-900 p-4 text-sm text-slate-100 overflow-x-auto my-6 font-mono;
+}
+.prose code {
+  @apply rounded bg-slate-100 px-1.5 py-0.5 text-sm font-mono text-green-700 dark:bg-slate-800 dark:text-green-400;
+}
