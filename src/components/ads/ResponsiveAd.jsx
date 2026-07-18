@@ -27,7 +27,7 @@ export default function ResponsiveAd({ className = "" }) {
           </script>
         */}
         <div className="text-center">
-          <p className="text-sm font-bold text-white">Demo AdSense Responsive Ad</p>
+          <p className="text-sm font-bold text-white">TechAxioz Responsive Ad</p>
           <p className="text-[11px] text-slate-400 font-medium">Auto-fluid Responsive Unit</p>
         </div>
       </div>

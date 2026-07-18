@@ -11,14 +11,14 @@ export default function SEOHead({
   description,
   canonicalUrl,
   ogType = 'website',
-  ogImage = 'https://demoadsense.com/og-image-placeholder.png',
+  ogImage = 'https://techaxioz.com/og-image-placeholder.png',
   articleData = null,
   faqData = null,
   breadcrumbs = null,
 }) {
-  const siteName = 'Demo AdSense';
+  const siteName = 'TechAxioz';
   const finalTitle = title ? `${title} | ${siteName}` : `${siteName} - Quality Content. Better Earnings.`;
-  const finalDescription = description || 'Demo AdSense is your ultimate guide for programming tutorials, debugging tips, developer productivity tools, tech reviews, and hardware guides.';
+  const finalDescription = description || 'TechAxioz is your ultimate guide for programming tutorials, debugging tips, developer productivity tools, tech reviews, and hardware guides.';
   const finalUrl = canonicalUrl || window.location.href;
 
   // JSON-LD schemas
@@ -28,14 +28,14 @@ export default function SEOHead({
   const organizationSchema = {
     '@context': 'https://schema.org',
     '@type': 'Organization',
-    '@id': 'https://demoadsense.com/#organization',
+    '@id': 'https://techaxioz.com/#organization',
     'name': siteName,
-    'url': 'https://demoadsense.com',
-    'logo': 'https://demoadsense.com/logo.png',
+    'url': 'https://techaxioz.com',
+    'logo': 'https://techaxioz.com/logo.png',
     'sameAs': [
-      'https://twitter.com/demoadsense',
-      'https://github.com/demoadsense',
-      'https://facebook.com/demoadsense'
+      'https://twitter.com/techaxioz',
+      'https://github.com/techaxioz',
+      'https://facebook.com/techaxioz'
     ]
   };
   schemas.push(organizationSchema);
@@ -49,7 +49,7 @@ export default function SEOHead({
         '@type': 'ListItem',
         'position': idx + 1,
         'name': crumb.name,
-        'item': crumb.url.startsWith('http') ? crumb.url : `https://demoadsense.com${crumb.url}`,
+        'item': crumb.url.startsWith('http') ? crumb.url : `https://techaxioz.com${crumb.url}`,
       })),
     };
     schemas.push(breadcrumbListSchema);
@@ -62,7 +62,7 @@ export default function SEOHead({
       '@type': 'TechArticle',
       '@id': `${finalUrl}#article`,
       'isPartOf': {
-        '@id': 'https://demoadsense.com/#website'
+        '@id': 'https://techaxioz.com/#website'
       },
       'headline': articleData.title,
       'description': articleData.description,
@@ -74,10 +74,10 @@ export default function SEOHead({
       'author': {
         '@type': 'Person',
         'name': articleData.authorName,
-        'url': `https://demoadsense.com/author/${articleData.authorSlug}`,
+        'url': `https://techaxioz.com/author/${articleData.authorSlug}`,
       },
       'publisher': {
-        '@id': 'https://demoadsense.com/#organization'
+        '@id': 'https://techaxioz.com/#organization'
       },
       'dependencies': articleData.category,
       'proficiencyLevel': 'Beginner/Intermediate/Advanced'
@@ -132,8 +132,8 @@ export default function SEOHead({
       <meta name="twitter:title" content={finalTitle} />
       <meta name="twitter:description" content={finalDescription} />
       <meta name="twitter:image" content={ogImage} />
-      <meta name="twitter:site" content="@demoadsense" />
-      <meta name="twitter:creator" content="@demoadsense" />
+      <meta name="twitter:site" content="@techaxioz" />
+      <meta name="twitter:creator" content="@techaxioz" />
 
       {/* Inject all schemas */}
       {schemas.map((schema, index) => (

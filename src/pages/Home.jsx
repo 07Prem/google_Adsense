@@ -44,37 +44,37 @@ export default function Home() {
   // Section 10: Testimonials Data
   const testimonials = [
     {
-      quote: "Demo AdSense has completely changed how our team benchmarks laptops. The SSD and CPU compile speed comparisons are incredibly precise.",
-      author: "Sarah Jenkins",
-      role: "Lead Software Architect at CloudFlow",
-      avatar: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=150&auto=format&fit=crop&q=80"
+      quote: "TechAxioz has completely changed how our team benchmarks laptops. The SSD and CPU compile speed comparisons are incredibly precise.",
+      author: "TechAxioz Reader",
+      role: "Lead Software Architect",
+      avatar: 'data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40" fill="none"><rect width="40" height="40" rx="20" fill="%232563EB"/><path d="M14 15 L18 20 L14 25 M20 25 L26 25" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>'
     },
     {
       quote: "The React optimization checklists are a goldmine. Our application's initial render times dropped by 40% after applying their tips.",
-      author: "David Chen",
-      role: "Senior Frontend Engineer, DevStack",
-      avatar: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&auto=format&fit=crop&q=80"
+      author: "TechAxioz Subscriber",
+      role: "Senior Frontend Engineer",
+      avatar: 'data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40" fill="none"><rect width="40" height="40" rx="20" fill="%2306B6D4"/><path d="M15 15 L11 20 L15 25 M25 15 L29 20 L25 25 M21 14 L19 26" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>'
     },
     {
       quote: "Clean, human-written tutorials without the fluff. Finding practical, direct answers for Linux command configurations is effortless.",
-      author: "Elena Rostova",
-      role: "DevOps Engineer, SecureNet",
-      avatar: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=150&auto=format&fit=crop&q=80"
+      author: "TechAxioz Contributor",
+      role: "DevOps Specialist",
+      avatar: 'data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40" fill="none"><rect width="40" height="40" rx="20" fill="%230F172A"/><path d="M20 12 L14 14 V20 C14 24, 20 28, 20 28 C 20 28, 26 24, 26 20 V14 L20 12 Z" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>'
     }
   ];
 
   // Section 11: FAQ Data
   const homeFaqs = [
     {
-      question: "What is Demo AdSense?",
-      answer: "Demo AdSense is an independent technology publishing platform specializing in tested programming guides, React render optimizations, system configurations, and developer hardware benchmarks."
+      question: "What is TechAxioz?",
+      answer: "TechAxioz is an independent technology publishing platform specializing in tested programming guides, React render optimizations, system configurations, and developer hardware benchmarks."
     },
     {
       question: "Are the coding tutorials original?",
-      answer: "Yes, absolutely. Every code block, setup instructions, and troubleshooting guide published on Demo AdSense is built and verified locally by real web developers and system administrators."
+      answer: "Yes, absolutely. Every code block, setup instructions, and troubleshooting guide published on TechAxioz is built and verified locally by real web developers and system administrators."
     },
     {
-      question: "Can I write for Demo AdSense?",
+      question: "Can I write for TechAxioz?",
       answer: "We support a contributor network. Visited our 'Write For Us' portal to submit your technical tutorials or product reviews."
     },
     {
@@ -92,7 +92,7 @@ export default function Home() {
     <>
       <SEOHead 
         title="Learn. Build. Grow. - Premium Tech Publication"
-        description="Demo AdSense is a professional tech blog presenting original web programming roadmaps, React optimizations, Python guides, and objective laptop evaluations."
+        description="TechAxioz is a professional tech blog presenting original web programming roadmaps, React optimizations, Python guides, and objective laptop evaluations."
       />
 
       <div className="bg-white dark:bg-slate-900 transition-colors duration-300 min-h-screen">
@@ -552,7 +552,7 @@ export default function Home() {
                 Developer Community Reviews
               </h2>
               <p className="text-xs sm:text-sm text-slate-500 dark:text-slate-400 mt-1">
-                Read what engineers and developers think about Demo AdSense guides.
+                Read what engineers and developers think about TechAxioz guides.
               </p>
             </div>
 

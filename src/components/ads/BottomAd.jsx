@@ -27,7 +27,7 @@ export default function BottomAd() {
           </script>
         */}
         <div className="text-center">
-          <p className="text-sm font-bold text-white">Demo AdSense Bottom Ad</p>
+          <p className="text-sm font-bold text-white">TechAxioz Bottom Ad</p>
           <p className="text-[11px] text-slate-400 font-medium mt-0.5">Horizontal/Fluid Unit (Above Footer)</p>
         </div>
       </div>

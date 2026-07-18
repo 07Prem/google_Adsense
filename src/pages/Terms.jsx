@@ -9,7 +9,7 @@ export default function Terms() {
     <>
       <SEOHead 
         title="Terms & Conditions"
-        description="Review the Terms & Conditions governing the use of Demo AdSense website and services."
+        description="Review the Terms & Conditions governing the use of TechAxioz website and services."
       />
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6 md:py-10">
@@ -23,28 +23,28 @@ export default function Terms() {
 
           <div className="prose dark:prose-invert text-slate-700 dark:text-slate-350 space-y-6 font-sans text-sm sm:text-base leading-relaxed">
             <p>
-              Welcome to Demo AdSense! These terms and conditions outline the rules and regulations for the use of Demo AdSense's Website, located at https://demoadsense.com.
+              Welcome to TechAxioz! These terms and conditions outline the rules and regulations for the use of TechAxioz's Website, located at https://techaxioz.com.
             </p>
             <p>
-              By accessing this website we assume you accept these terms and conditions. Do not continue to use Demo AdSense if you do not agree to take all of the terms and conditions stated on this page.
+              By accessing this website we assume you accept these terms and conditions. Do not continue to use TechAxioz if you do not agree to take all of the terms and conditions stated on this page.
             </p>
 
             <h2 className="font-display font-bold text-lg sm:text-xl text-slate-900 dark:text-white mt-8 mb-3">Cookies</h2>
             <p>
-              We employ the use of cookies. By accessing Demo AdSense, you agreed to use cookies in agreement with the Demo AdSense's Privacy Policy. Most interactive websites use cookies to let us retrieve the user's details for each visit. Cookies are used by our website to enable the functionality of certain areas to make it easier for people visiting our website.
+              We employ the use of cookies. By accessing TechAxioz, you agreed to use cookies in agreement with the TechAxioz's Privacy Policy. Most interactive websites use cookies to let us retrieve the user's details for each visit. Cookies are used by our website to enable the functionality of certain areas to make it easier for people visiting our website.
             </p>
 
             <h2 className="font-display font-bold text-lg sm:text-xl text-slate-900 dark:text-white mt-8 mb-3">License</h2>
             <p>
-              Unless otherwise stated, Demo AdSense and/or its licensors own the intellectual property rights for all material on Demo AdSense. All intellectual property rights are reserved. You may access this from Demo AdSense for your own personal use subjected to restrictions set in these terms and conditions.
+              Unless otherwise stated, TechAxioz and/or its licensors own the intellectual property rights for all material on TechAxioz. All intellectual property rights are reserved. You may access this from TechAxioz for your own personal use subjected to restrictions set in these terms and conditions.
             </p>
 
             <h2 className="font-display font-bold text-lg sm:text-xl text-slate-900 dark:text-white mt-8 mb-3">You must not:</h2>
             <ul className="list-disc pl-6 space-y-2">
-              <li>Republish material from Demo AdSense</li>
-              <li>Sell, rent or sub-license material from Demo AdSense</li>
-              <li>Reproduce, duplicate or copy material from Demo AdSense</li>
-              <li>Redistribute content from Demo AdSense</li>
+              <li>Republish material from TechAxioz</li>
+              <li>Sell, rent or sub-license material from TechAxioz</li>
+              <li>Reproduce, duplicate or copy material from TechAxioz</li>
+              <li>Redistribute content from TechAxioz</li>
             </ul>
           </div>
         </div>

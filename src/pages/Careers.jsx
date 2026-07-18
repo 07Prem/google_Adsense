@@ -15,8 +15,8 @@ export default function Careers() {
   return (
     <>
       <SEOHead 
-        title="Careers at Demo AdSense - Job Openings"
-        description="Join our team at Demo AdSense. Browse contract, freelance, and remote opportunities for technical authors and tech editors."
+        title="Careers at TechAxioz - Job Openings"
+        description="Join our team at TechAxioz. Browse contract, freelance, and remote opportunities for technical authors and tech editors."
       />
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6 md:py-10">
@@ -29,7 +29,7 @@ export default function Careers() {
           <div className="text-center mb-12">
             <Briefcase className="w-8 h-8 text-green-600 mx-auto mb-3" />
             <h1 className="font-display font-extrabold text-3.5xl md:text-4.5xl text-slate-900 dark:text-white leading-tight">
-              Careers at Demo AdSense
+              Careers at TechAxioz
             </h1>
             <p className="text-base text-slate-500 dark:text-slate-400 mt-2 font-sans">
               Help us write simple solutions for smart technology questions.
@@ -39,7 +39,7 @@ export default function Careers() {
 
           <div className="prose dark:prose-invert max-w-none text-slate-700 dark:text-slate-300 space-y-6 font-sans">
             <p className="text-base leading-relaxed">
-              At **Demo AdSense**, we are building a world-class technology publication powered by a collaborative network of remote software engineers, DevOps experts, hardware benchmarks, and editors. We work without physical boundaries, valuing clarity, technical authenticity, and quality above all else.
+              At **TechAxioz**, we are building a world-class technology publication powered by a collaborative network of remote software engineers, DevOps experts, hardware benchmarks, and editors. We work without physical boundaries, valuing clarity, technical authenticity, and quality above all else.
             </p>
 
             <h2 className="font-display font-bold text-xl sm:text-2xl text-slate-900 dark:text-white mt-8 mb-4">Open Opportunities</h2>
@@ -57,7 +57,7 @@ export default function Careers() {
                   </div>
                   
                   <a 
-                    href="mailto:careers@demoadsense.com" 
+                    href="mailto:careers@techaxioz.com" 
                     className="flex items-center gap-1 text-xs font-bold text-green-600 dark:text-green-400 hover:text-green-700 dark:hover:text-green-300 flex-shrink-0"
                   >
                     Apply <ArrowUpRight className="w-3.5 h-3.5" />
@@ -68,7 +68,7 @@ export default function Careers() {
 
             <h2 className="font-display font-bold text-xl sm:text-2xl text-slate-900 dark:text-white mt-8 mb-4">Equal Opportunity</h2>
             <p className="text-sm sm:text-base leading-relaxed">
-              Demo AdSense is an equal-opportunity publisher. We celebrate diversity of experiences and reject discrimination on gender, age, race, religion, sexual orientation, disability, or location.
+              TechAxioz is an equal-opportunity publisher. We celebrate diversity of experiences and reject discrimination on gender, age, race, religion, sexual orientation, disability, or location.
             </p>
           </div>
 

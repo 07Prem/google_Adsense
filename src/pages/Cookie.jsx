@@ -9,7 +9,7 @@ export default function Cookie() {
     <>
       <SEOHead 
         title="Cookie Policy"
-        description="Detailed information about the cookies used on Demo AdSense, their functions, and opt-out methods."
+        description="Detailed information about the cookies used on TechAxioz, their functions, and opt-out methods."
       />
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6 md:py-10">
@@ -23,7 +23,7 @@ export default function Cookie() {
 
           <div className="prose dark:prose-invert text-slate-700 dark:text-slate-350 space-y-6 font-sans text-sm sm:text-base leading-relaxed">
             <p>
-              This is the Cookie Policy for Demo AdSense, accessible from https://demoadsense.com. We believe in being transparent about how we collect and use data related to you.
+              This is the Cookie Policy for TechAxioz, accessible from https://techaxioz.com. We believe in being transparent about how we collect and use data related to you.
             </p>
 
             <h2 className="font-display font-bold text-lg sm:text-xl text-slate-900 dark:text-white mt-8 mb-3">What Are Cookies</h2>

@@ -1,6 +1,6 @@
 /**
  * Categories Metadata
- * Defines all the primary writing categories on Demo AdSense.
+ * Defines all the primary writing categories on TechAxioz.
  */
 export const categories = [
   {

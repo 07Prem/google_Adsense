@@ -9,7 +9,7 @@ export default function Editorial() {
     <>
       <SEOHead 
         title="Editorial Policy & Accuracy Standards"
-        description="Read the Demo AdSense Editorial Policy. Learn about our content reviews, code checks, and standards for publication."
+        description="Read the TechAxioz Editorial Policy. Learn about our content reviews, code checks, and standards for publication."
       />
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6 md:py-10">
@@ -23,7 +23,7 @@ export default function Editorial() {
 
           <div className="prose dark:prose-invert text-slate-700 dark:text-slate-350 space-y-6 font-sans text-sm sm:text-base leading-relaxed">
             <p>
-              **Demo AdSense** is committed to publishing highly accurate, helpful, and transparent content. Our editorial policy outlines our commitment to standard workflows and technical integrity.
+              **TechAxioz** is committed to publishing highly accurate, helpful, and transparent content. Our editorial policy outlines our commitment to standard workflows and technical integrity.
             </p>
 
             <h2 className="font-display font-bold text-lg sm:text-xl text-slate-900 dark:text-white mt-8 mb-3">Core Editorial Principles</h2>

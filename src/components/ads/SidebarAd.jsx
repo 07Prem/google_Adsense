@@ -25,7 +25,7 @@ export default function SidebarAd() {
           </script>
         */}
         <div className="text-center">
-          <p className="text-sm font-bold text-white">Demo AdSense Sidebar Ad</p>
+          <p className="text-sm font-bold text-white">TechAxioz Sidebar Ad</p>
           <p className="text-[11px] text-slate-400 font-medium mt-1">Fixed/Responsive Vertical Unit (300x250 or 300x600)</p>
         </div>
       </div>

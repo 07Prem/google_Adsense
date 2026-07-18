@@ -27,7 +27,7 @@ export default function TopBannerAd() {
           </script>
         */}
         <div className="text-center font-sans">
-          <p className="text-sm font-bold text-white">Demo AdSense Top Banner Ad</p>
+          <p className="text-sm font-bold text-white">TechAxioz Top Banner Ad</p>
           <p className="text-[11px] text-slate-400 font-medium mt-0.5">Responsive Horizontal Unit (970x90 or 728x90)</p>
         </div>
       </div>

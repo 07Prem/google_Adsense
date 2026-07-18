@@ -35,7 +35,7 @@ export default function SearchResults() {
     <>
       <SEOHead 
         title={query ? `Search Results for "${query}"` : 'Search Articles'}
-        description="Search Demo AdSense for debugging tips, coding tutorials, Linux commands, or hardware buying guides."
+        description="Search TechAxioz for debugging tips, coding tutorials, Linux commands, or hardware buying guides."
       />
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6 md:py-10">
@@ -47,7 +47,7 @@ export default function SearchResults() {
         <div className="my-8 md:my-12 max-w-xl mx-auto text-center font-sans">
           <Search className="w-8 h-8 text-green-600 mx-auto mb-3" />
           <h1 className="font-display font-black text-2.5xl md:text-3.5xl text-gray-900 dark:text-white leading-tight">
-            Search Demo AdSense
+            Search TechAxioz
           </h1>
           <p className="text-sm text-gray-500 mt-2 mb-6">
             Looking for something specific? Enter a programming topic, tag, or hardware name.

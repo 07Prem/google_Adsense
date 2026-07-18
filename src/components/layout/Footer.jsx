@@ -56,15 +56,14 @@ export default function Footer() {
           <div className="lg:col-span-4 space-y-4">
             <div className="flex items-center gap-3">
               <svg className="w-10 h-10 flex-shrink-0" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-                <rect width="40" height="40" rx="12" fill="#22C55E" />
-                <rect x="9" y="9" width="22" height="22" rx="5" fill="white" />
-                <circle cx="14" cy="14" r="1.5" fill="#22C55E" />
-                <circle cx="19" cy="14" r="1.5" fill="#22C55E" />
-                <circle cx="24" cy="14" r="1.5" fill="#22C55E" />
-                <path d="M12 24 L18 19 L23 23 L28 17" stroke="#22C55E" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" />
+                <rect width="40" height="40" rx="12" fill="#0F172A" />
+                <path d="M20 8 L30 14 V26 L20 32 L10 26 V14 L20 8 Z" stroke="#2563EB" strokeWidth="2" strokeLinejoin="round" />
+                <path d="M16 16 L12 20 L16 24" stroke="#06B6D4" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+                <path d="M24 16 L28 20 L24 24" stroke="#06B6D4" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+                <path d="M22 15 L18 25" stroke="#2563EB" strokeWidth="2.5" strokeLinecap="round" />
               </svg>
               <span className="font-display font-black text-xl tracking-tight text-gray-900 dark:text-white leading-none">
-                Demo<span className="text-green-500"> AdSense</span>
+                Tech<span className="text-blue-600">Axioz</span>
               </span>
             </div>
             <p className="text-sm text-gray-500 dark:text-slate-400 font-sans leading-relaxed">
@@ -73,16 +72,16 @@ export default function Footer() {
             
             {/* Social icons */}
             <div className="flex items-center space-x-3 pt-2">
-              <a href="https://github.com/demoadsense" target="_blank" rel="noopener noreferrer" className="p-2 bg-slate-50 dark:bg-slate-900 hover:bg-green-50 dark:hover:bg-green-950/20 text-slate-500 hover:text-green-600 rounded-full transition-colors" aria-label="GitHub">
+              <a href="https://github.com/techaxioz" target="_blank" rel="noopener noreferrer" className="p-2 bg-slate-50 dark:bg-slate-900 hover:bg-green-50 dark:hover:bg-green-950/20 text-slate-500 hover:text-green-600 rounded-full transition-colors" aria-label="GitHub">
                 <Github className="w-4.5 h-4.5" />
               </a>
-              <a href="https://twitter.com/demoadsense" target="_blank" rel="noopener noreferrer" className="p-2 bg-slate-50 dark:bg-slate-900 hover:bg-green-50 dark:hover:bg-green-950/20 text-slate-500 hover:text-green-600 rounded-full transition-colors" aria-label="Twitter">
+              <a href="https://twitter.com/techaxioz" target="_blank" rel="noopener noreferrer" className="p-2 bg-slate-50 dark:bg-slate-900 hover:bg-green-50 dark:hover:bg-green-950/20 text-slate-500 hover:text-green-600 rounded-full transition-colors" aria-label="Twitter">
                 <Twitter className="w-4.5 h-4.5" />
               </a>
-              <a href="https://linkedin.com/company/demoadsense" target="_blank" rel="noopener noreferrer" className="p-2 bg-slate-50 dark:bg-slate-900 hover:bg-green-50 dark:hover:bg-green-950/20 text-slate-500 hover:text-green-600 rounded-full transition-colors" aria-label="LinkedIn">
+              <a href="https://linkedin.com/company/techaxioz" target="_blank" rel="noopener noreferrer" className="p-2 bg-slate-50 dark:bg-slate-900 hover:bg-green-50 dark:hover:bg-green-950/20 text-slate-500 hover:text-green-600 rounded-full transition-colors" aria-label="LinkedIn">
                 <Linkedin className="w-4.5 h-4.5" />
               </a>
-              <a href="https://facebook.com/demoadsense" target="_blank" rel="noopener noreferrer" className="p-2 bg-slate-50 dark:bg-slate-900 hover:bg-green-50 dark:hover:bg-green-950/20 text-slate-500 hover:text-green-600 rounded-full transition-colors" aria-label="Facebook">
+              <a href="https://facebook.com/techaxioz" target="_blank" rel="noopener noreferrer" className="p-2 bg-slate-50 dark:bg-slate-900 hover:bg-green-50 dark:hover:bg-green-950/20 text-slate-500 hover:text-green-600 rounded-full transition-colors" aria-label="Facebook">
                 <Facebook className="w-4.5 h-4.5" />
               </a>
             </div>
@@ -155,7 +154,7 @@ export default function Footer() {
             </span>
             {subscribed ? (
               <div className="p-3 text-xs bg-emerald-50 dark:bg-emerald-950/20 border border-emerald-250 text-emerald-800 dark:text-emerald-350 rounded-xl">
-                Thank you! You are subscribed to Demo AdSense notifications.
+                Thank you! You are subscribed to TechAxioz notifications.
               </div>
             ) : (
               <form onSubmit={handleSubscribe} className="relative flex items-center w-full">
@@ -182,7 +181,7 @@ export default function Footer() {
           </div>
 
           <p className="text-xs text-gray-400 dark:text-slate-500 text-center lg:text-right">
-            &copy; {new Date().getFullYear()} Demo AdSense. Designed with a clean light layout built for publisher speed. Learn. Build. Grow.
+            &copy; {new Date().getFullYear()} TechAxioz. Designed with a clean light layout built for publisher speed. Learn. Build. Grow.
           </p>
         </div>
 

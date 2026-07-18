@@ -1,58 +1,58 @@
 /**
  * Authors Metadata
- * Profile data for all tech writers contributing to Demo AdSense.
+ * Profile data for all tech writers contributing to TechAxioz.
  */
 export const authors = [
   {
     slug: 'alex-chen',
-    name: 'Alex Chen',
+    name: 'Editorial Team',
     role: 'Senior Frontend Architect',
-    avatar: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=200&h=200',
-    bio: 'Alex is a Senior Frontend Architect with 12+ years of experience specializing in React, high-performance web systems, and modern JavaScript standards.',
-    fullBio: 'Alex Chen is a veteran Software Architect focusing on frontend technologies. Having worked at major technology firms and scale-ups, he designs robust component systems and speaks frequently at developers meetups. His writing explores complex React architectures, performance debugging techniques, and the nuances of functional JavaScript programming. Outside of code, Alex is an avid mechanical keyboard collector and amateur landscape photographer.',
+    avatar: 'data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40" fill="none"><rect width="40" height="40" rx="8" fill="%232563EB"/><path d="M14 15 L9 20 L14 25 M26 15 L31 20 L26 25 M22 13 L18 27" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>',
+    bio: 'Our Editorial Team consists of senior software engineers and technology analysts dedicated to delivering verified technical walkthroughs.',
+    fullBio: 'The TechAxioz Editorial Team coordinates technical reviews, layout architecture, and performance benchmarking across our publications. Our members bring senior engineering experience from key technology firms, ensuring that every published React structure, script tutorial, and setup recommendation is safe, verified, and ready for development.',
     socials: {
-      twitter: 'https://twitter.com/alexchen_dev',
-      github: 'https://github.com/alexchen-dev',
-      linkedin: 'https://linkedin.com/in/alexchen-dev'
+      twitter: 'https://twitter.com/techaxioz',
+      github: 'https://github.com/techaxioz',
+      linkedin: 'https://linkedin.com/company/techaxioz'
     }
   },
   {
     slug: 'sarah-jenkins',
-    name: 'Sarah Jenkins',
+    name: 'TechAxioz Team',
     role: 'DevSecOps & Linux Specialist',
-    avatar: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&q=80&w=200&h=200',
-    bio: 'Sarah is an experienced DevSecOps Engineer and Linux trainer focusing on containerization, kernel tuning, and secure network infrastructures.',
-    fullBio: 'Sarah Jenkins is a security consultant and Linux kernel enthusiast. Over the past decade, she has helped startups and enterprise organizations harden their server deployments, automate deployment pipelines, and design robust access controls. On Demo AdSense, she authors practical command-line guides, terminal configuration tricks, and cybersecurity best practices for app developers. She spends her free time configuring custom home lab servers and climbing outdoors.',
+    avatar: 'data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40" fill="none"><rect width="40" height="40" rx="8" fill="%2306B6D4"/><path d="M12 14 L18 20 L12 26 M20 25 L28 25" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>',
+    bio: 'The TechAxioz DevSecOps desk specializes in automated server architectures, kernel debugging, and system configurations.',
+    fullBio: 'The TechAxioz DevSecOps team is a collaborative hub of system administrators and containerization experts. We work to provide clean tutorials on Linux CLI configuration, deployment automation, container security, and DevSecOps pipelines. Every guide is tested on clean server instances before publication.',
     socials: {
-      twitter: 'https://twitter.com/sarahj_sec',
-      github: 'https://github.com/sarahj-sec',
-      linkedin: 'https://linkedin.com/in/sarahj-sec'
+      twitter: 'https://twitter.com/techaxioz',
+      github: 'https://github.com/techaxioz',
+      linkedin: 'https://linkedin.com/company/techaxioz'
     }
   },
   {
     slug: 'marcus-thornton',
-    name: 'Marcus Thornton',
-    role: 'Lead Hardware Reviewer & SysAdmin',
-    avatar: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&q=80&w=200&h=200',
-    bio: 'Marcus has covered consumer hardware, monitors, and client devices for over 15 years, blending benchmarks with real-world usability tests.',
-    fullBio: 'Marcus Thornton leads hardware evaluations and system setups at Demo AdSense. With a deep history as a systems administrator and hardware benchmarker, he understands exactly what developers, students, and professionals need in their setups. From SSD load times to monitor color accuracy and keyboard switches, Marcus covers hardware with rigorous objectivity. When not analyzing benchmark sheets, he builds custom audio systems and experiments with single-board computing.',
+    name: 'Admin Desk',
+    role: 'Hardware Analyst & SysAdmin',
+    avatar: 'data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40" fill="none"><rect width="40" height="40" rx="8" fill="%230F172A"/><path d="M20 10 L12 13 V20 C12 26, 20 30, 20 30 C 20 30, 28 26, 28 20 V13 L20 10 Z" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>',
+    bio: 'Our Admin Desk coordinates client reviews, SSD benchmarking, and workstation setup assessments.',
+    fullBio: 'The Admin and Hardware Desk delivers objective, metric-backed hardware reviews. We bench test consumer laptops, storage drives, and color-accurate monitors, matching system benchmarks against actual compiler loading speeds and layout development runtimes to verify hardware suitability for web development teams.',
     socials: {
-      twitter: 'https://twitter.com/marcust_tech',
-      github: 'https://github.com/marcust-tech',
-      linkedin: 'https://linkedin.com/in/marcust-tech'
+      twitter: 'https://twitter.com/techaxioz',
+      github: 'https://github.com/techaxioz',
+      linkedin: 'https://linkedin.com/company/techaxioz'
     }
   },
   {
     slug: 'elena-rodriguez',
-    name: 'Elena Rodriguez',
-    role: 'AI Research Lead & Career Mentor',
-    avatar: 'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&q=80&w=200&h=200',
-    bio: 'Elena is an AI engineer and developer mentor who covers artificial intelligence workflows and helps engineers transition into tech careers.',
-    fullBio: 'Elena Rodriguez works at the intersection of AI integration and developer education. She advises engineers on utilizing AI code tools responsibly and teaches workshops on transitioning from non-traditional paths into technology careers. Her articles clarify the practical boundaries of large language models, give actionable advice on building career roadmaps, and offer guidance on navigating professional interviews. She enjoys playing chess and mentoring at local coding non-profits.',
+    name: 'Guest Contributor',
+    role: 'AI Researcher & Advisor',
+    avatar: 'data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40" fill="none"><rect width="40" height="40" rx="8" fill="%2322C55E"/><circle cx="20" cy="15" r="5" fill="white"/><path d="M12 28 C 12 23, 28 23, 28 28" stroke="white" stroke-width="2.5" stroke-linecap="round"/></svg>',
+    bio: 'We host articles from guest researchers, tech mentors, and AI engineers across the dev community.',
+    fullBio: 'TechAxioz frequently partners with external artificial intelligence engineers, developer educators, and tech career mentors to publish guest columns. These articles highlight the integration of generative AI within modern IDE workflows, interview preparation strategies, and technical transition paths into full-time engineering.',
     socials: {
-      twitter: 'https://twitter.com/elena_devcoach',
-      github: 'https://github.com/elena-codes',
-      linkedin: 'https://linkedin.com/in/elena-rodriguez'
+      twitter: 'https://twitter.com/techaxioz',
+      github: 'https://github.com/techaxioz',
+      linkedin: 'https://linkedin.com/company/techaxioz'
     }
   }
 ];

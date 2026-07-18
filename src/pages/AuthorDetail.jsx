@@ -16,7 +16,7 @@ export default function AuthorDetail() {
       <div className="max-w-7xl mx-auto px-4 py-16 text-center">
         <AlertCircle className="w-12 h-12 text-red-500 mx-auto mb-4" />
         <h2 className="font-display font-extrabold text-2xl text-slate-900 dark:text-white">Author Not Found</h2>
-        <p className="text-sm text-slate-500 mt-2">The author profile you are looking for does not exist on Demo AdSense.</p>
+        <p className="text-sm text-slate-500 mt-2">The author profile you are looking for does not exist on TechAxioz.</p>
         <Link to="/" className="mt-6 inline-flex items-center gap-2 text-sm font-bold text-green-600 hover:underline">
           <ArrowLeft className="w-4 h-4" /> Back to Home
         </Link>

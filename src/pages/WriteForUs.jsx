@@ -9,8 +9,8 @@ export default function WriteForUs() {
   return (
     <>
       <SEOHead 
-        title="Write For Us - Demo AdSense Contributors"
-        description="Read our submission guidelines and learn how to contribute technical tutorials, debugging tips, or reviews to Demo AdSense."
+        title="Write For Us - TechAxioz Contributors"
+        description="Read our submission guidelines and learn how to contribute technical tutorials, debugging tips, or reviews to TechAxioz."
       />
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6 md:py-10">
@@ -26,7 +26,7 @@ export default function WriteForUs() {
               Write For Us
             </h1>
             <p className="text-base text-slate-500 dark:text-slate-400 mt-2 font-sans">
-              Share your technical expertise with the Demo AdSense reader community.
+              Share your technical expertise with the TechAxioz reader community.
             </p>
             <div className="h-1 w-16 bg-green-600 rounded-full mx-auto mt-4" />
           </div>
@@ -69,12 +69,12 @@ export default function WriteForUs() {
 
             <h2 className="font-display font-bold text-xl sm:text-2xl text-slate-900 dark:text-white mt-8 mb-4">How to Apply</h2>
             <p className="text-sm sm:text-base leading-relaxed">
-              Send an email to **write@demoadsense.com** with the subject line "Contributor Application: [Your Name]". Please include:
+              Send an email to **write@techaxioz.com** with the subject line "Contributor Application: [Your Name]". Please include:
             </p>
             <ul className="list-decimal pl-6 space-y-2">
               <li>A short bio explaining your technical background and experience.</li>
               <li>Links to 2 or 3 technical articles you have published previously.</li>
-              <li>A bulleted list of 3 specific article pitches you would like to write for Demo AdSense.</li>
+              <li>A bulleted list of 3 specific article pitches you would like to write for TechAxioz.</li>
             </ul>
           </div>
 

@@ -9,8 +9,8 @@ export default function About() {
   return (
     <>
       <SEOHead 
-        title="About Demo AdSense"
-        description="Learn more about our mission, editorial standards, and our team of technical authors and hardware reviewers at Demo AdSense."
+        title="About TechAxioz"
+        description="Learn more about our mission, editorial standards, and our team of technical authors and hardware reviewers at TechAxioz."
       />
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6 md:py-10">
@@ -22,7 +22,7 @@ export default function About() {
           
           <div className="text-center mb-12">
             <h1 className="font-display font-extrabold text-3.5xl md:text-4.5xl text-slate-900 dark:text-white leading-tight">
-              About Demo AdSense
+              About TechAxioz
             </h1>
             <p className="text-base sm:text-lg text-slate-500 dark:text-slate-400 mt-2 font-sans">
               Quality Content. Better Earnings.
@@ -33,10 +33,10 @@ export default function About() {
           {/* Mission */}
           <div className="prose dark:prose-invert max-w-none text-slate-700 dark:text-slate-300 space-y-6 font-sans">
             <p className="text-base sm:text-lg leading-relaxed">
-              Founded in 2026, **Demo AdSense** is a modern, independent technology publication dedicated to providing clear, authoritative, and actionable guides for software engineers, designers, system administrators, and technology buyers.
+              Founded in 2026, **TechAxioz** is a modern, independent technology publication dedicated to providing clear, authoritative, and actionable guides for software engineers, designers, system administrators, and technology buyers.
             </p>
             <p className="text-base sm:text-lg leading-relaxed">
-              In a digital landscape flooded with shallow summaries and automated templates, Demo AdSense stands apart. We believe in the power of deep-dive, human-authored content. Our primary goal is to help you debug code quicker, write scripts faster, configure secure servers, and purchase hardware that suits your demands.
+              In a digital landscape flooded with shallow summaries and automated templates, TechAxioz stands apart. We believe in the power of deep-dive, human-authored content. Our primary goal is to help you debug code quicker, write scripts faster, configure secure servers, and purchase hardware that suits your demands.
             </p>
 
             <h2 className="font-display font-bold text-xl sm:text-2xl text-slate-900 dark:text-white mt-10 mb-4">Our Core Pillars</h2>
@@ -69,7 +69,7 @@ export default function About() {
 
             <h2 className="font-display font-bold text-xl sm:text-2xl text-slate-900 dark:text-white mt-10 mb-4">AdSense & Advertiser Compliance</h2>
             <p className="text-sm sm:text-base leading-relaxed">
-              We structure our advertising strictly according to Google AdSense guidelines. You will experience no intrusive popups, auto-playing audio feeds, or misleading overlay buttons on Demo AdSense. Spacing around our ad slots is carefully handled to prevent layouts shifting or accidental clicks.
+              We structure our advertising strictly according to Google AdSense guidelines. You will experience no intrusive popups, auto-playing audio feeds, or misleading overlay buttons on TechAxioz. Spacing around our ad slots is carefully handled to prevent layouts shifting or accidental clicks.
             </p>
           </div>
 

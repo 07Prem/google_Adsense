@@ -8,7 +8,7 @@ export default function NotFound() {
     <>
       <SEOHead 
         title="404 Page Not Found"
-        description="The page you are looking for does not exist on Demo AdSense. Search our programming guides and laptop reviews."
+        description="The page you are looking for does not exist on TechAxioz. Search our programming guides and laptop reviews."
       />
 
       <div className="max-w-7xl mx-auto px-4 py-16 sm:py-24 text-center">

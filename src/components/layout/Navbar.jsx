@@ -96,16 +96,15 @@ export default function Navbar() {
             <div className="flex-shrink-0">
               <Link to="/" className="flex items-center gap-3 group">
                 <svg className="w-10 h-10 flex-shrink-0 transition-transform duration-355 group-hover:rotate-6" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-                  <rect width="40" height="40" rx="12" fill="#22C55E" />
-                  <rect x="9" y="9" width="22" height="22" rx="5" fill="white" />
-                  <circle cx="14" cy="14" r="1.5" fill="#22C55E" />
-                  <circle cx="19" cy="14" r="1.5" fill="#22C55E" />
-                  <circle cx="24" cy="14" r="1.5" fill="#22C55E" />
-                  <path d="M12 24 L18 19 L23 23 L28 17" stroke="#22C55E" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" />
+                  <rect width="40" height="40" rx="12" fill="#0F172A" />
+                  <path d="M20 8 L30 14 V26 L20 32 L10 26 V14 L20 8 Z" stroke="#2563EB" strokeWidth="2" strokeLinejoin="round" />
+                  <path d="M16 16 L12 20 L16 24" stroke="#06B6D4" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+                  <path d="M24 16 L28 20 L24 24" stroke="#06B6D4" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+                  <path d="M22 15 L18 25" stroke="#2563EB" strokeWidth="2.5" strokeLinecap="round" />
                 </svg>
                 <div className="flex flex-col">
                   <span className="font-display font-black text-xl tracking-tight text-gray-900 dark:text-white leading-none">
-                    Demo<span className="text-green-500"> AdSense</span>
+                    Tech<span className="text-blue-600">Axioz</span>
                   </span>
                   <span className="text-[10px] tracking-widest text-slate-400 dark:text-slate-500 font-bold mt-1 leading-tight uppercase font-sans">
                     Learn. Build. Grow.

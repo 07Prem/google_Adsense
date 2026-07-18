@@ -2,7 +2,7 @@ import React, { useState, useEffect, useRef } from 'react';
 import { useParams, Link } from 'react-router-dom';
 import { 
   Calendar, Clock, Share2, Twitter, Facebook, Linkedin, Copy, 
-  MessageSquare, User, ArrowLeft, ArrowRight, BookOpen, AlertTriangle, 
+  ArrowLeft, ArrowRight, BookOpen, AlertTriangle, 
   CheckCircle, HelpCircle, Flame, Check, AlertCircle, Layers, Bookmark 
 } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
@@ -21,13 +21,6 @@ export default function ArticleDetail() {
   const { slug } = useParams();
   const article = getArticleBySlug(slug);
 
-  const [comments, setComments] = useState([
-    { id: 1, author: 'Jane Doe', role: 'Fullstack Engineer', text: 'This was an incredibly helpful breakdown. Thanks for writing this guide!', date: 'July 14, 2026' },
-    { id: 2, author: 'Markus V.', role: 'Developer', text: 'Clean code guidelines here are golden. I\'ve shared this with my engineering team.', date: 'July 15, 2026' }
-  ]);
-  const [newCommentName, setNewCommentName] = useState('');
-  const [newCommentText, setNewCommentText] = useState('');
-  const [commentSuccess, setCommentSuccess] = useState(false);
   const [activeFaq, setActiveFaq] = useState(null);
   const [copySuccess, setCopySuccess] = useState(false);
   const [readingProgress, setReadingProgress] = useState(0);
@@ -61,9 +54,6 @@ export default function ArticleDetail() {
 
   // Reset page parameters on slug change
   useEffect(() => {
-    setNewCommentName('');
-    setNewCommentText('');
-    setCommentSuccess(false);
     setActiveFaq(null);
     setCopySuccess(false);
     setReadingProgress(0);
@@ -74,7 +64,7 @@ export default function ArticleDetail() {
       <div className="max-w-7xl mx-auto px-4 py-16 text-center">
         <AlertCircle className="w-12 h-12 text-red-500 mx-auto mb-4" />
         <h2 className="font-display font-extrabold text-2xl text-gray-900 dark:text-white">Article Not Found</h2>
-        <p className="text-sm text-gray-500 mt-2">The article you are looking for does not exist on Demo AdSense.</p>
+        <p className="text-sm text-gray-500 mt-2">The article you are looking for does not exist on TechAxioz.</p>
         <Link to="/" className="mt-6 inline-flex items-center gap-2 text-sm font-bold text-green-600 hover:underline">
           <ArrowLeft className="w-4 h-4" /> Back to Home
         </Link>
@@ -103,25 +93,6 @@ export default function ArticleDetail() {
     localStorage.setItem('bookmarks', JSON.stringify(bookmarks));
   };
 
-  const handlePostComment = (e) => {
-    e.preventDefault();
-    if (!newCommentName.trim() || !newCommentText.trim()) return;
-    
-    const comment = {
-      id: Date.now(),
-      author: newCommentName.trim(),
-      role: 'Guest Developer',
-      text: newCommentText.trim(),
-      date: new Date().toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' })
-    };
-
-    setComments([...comments, comment]);
-    setNewCommentName('');
-    setNewCommentText('');
-    setCommentSuccess(true);
-    setTimeout(() => setCommentSuccess(false), 4000);
-  };
-
   const handleCopyLink = () => {
     navigator.clipboard.writeText(window.location.href);
     setCopySuccess(true);
@@ -138,7 +109,7 @@ export default function ArticleDetail() {
       <SEOHead 
         title={article.title}
         description={article.description}
-        canonicalUrl={`https://demoadsense.com/article/${article.slug}`}
+        canonicalUrl={`https://techaxioz.com/article/${article.slug}`}
         ogType="article"
         ogImage={article.featuredImage}
         articleData={{
@@ -470,70 +441,7 @@ export default function ArticleDetail() {
               </div>
             )}
 
-            {/* Comments UI Section */}
-            <div className="mt-12 pt-8 border-t border-slate-100 dark:border-slate-805">
-              <h3 className="font-display font-bold text-gray-900 dark:text-white text-xl mb-6 flex items-center gap-2">
-                <MessageSquare className="w-5.5 h-5.5 text-green-500" /> Readers Comments ({comments.length})
-              </h3>
-              
-              <div className="space-y-4 mb-8">
-                {comments.map((comment) => (
-                  <div key={comment.id} className="p-5 rounded-[18px] bg-slate-50 dark:bg-slate-900 border border-slate-100 dark:border-slate-800">
-                    <div className="flex justify-between items-center mb-2">
-                      <div className="flex items-center gap-2">
-                        <div className="w-7 h-7 rounded-full bg-green-100 dark:bg-green-900/30 text-green-600 dark:text-green-400 flex items-center justify-center text-xs font-bold">
-                          <User className="w-3.5 h-3.5" />
-                        </div>
-                        <div>
-                          <span className="text-sm font-bold text-slate-800 dark:text-white block">{comment.author}</span>
-                          <span className="text-[10px] text-slate-400 block -mt-0.5">{comment.role}</span>
-                        </div>
-                      </div>
-                      <span className="text-xs text-slate-400">{comment.date}</span>
-                    </div>
-                    <p className="text-sm text-slate-650 dark:text-slate-400 leading-relaxed font-sans mt-2">{comment.text}</p>
-                  </div>
-                ))}
-              </div>
-
-              {/* Input forms with rounded-[14px] borders */}
-              <form onSubmit={handlePostComment} className="p-6 rounded-[18px] bg-slate-50/50 dark:bg-slate-900/30 border border-slate-200 dark:border-slate-800">
-                <span className="text-sm font-bold text-gray-900 dark:text-white block mb-4">Post a Comment</span>
-                {commentSuccess && (
-                  <div className="p-3 text-xs bg-emerald-50 dark:bg-emerald-950/20 border border-emerald-200 dark:border-emerald-900/50 text-emerald-800 dark:text-emerald-350 rounded-[14px] mb-4">
-                    Comment posted successfully. Thank you for contributing!
-                  </div>
-                )}
-                <div className="grid grid-cols-1 gap-4">
-                  <div>
-                    <input 
-                      type="text" 
-                      placeholder="Your Name" 
-                      value={newCommentName}
-                      onChange={(e) => setNewCommentName(e.target.value)}
-                      required
-                      className="w-full px-3.5 py-2.5 text-sm rounded-[14px] border border-slate-205 dark:border-slate-800 bg-white dark:bg-slate-900 text-slate-800 dark:text-white focus:outline-none focus:border-green-500 focus:ring-1 focus:ring-green-500"
-                    />
-                  </div>
-                  <div>
-                    <textarea 
-                      placeholder="Your comment message here..." 
-                      rows="4"
-                      value={newCommentText}
-                      onChange={(e) => setNewCommentText(e.target.value)}
-                      required
-                      className="w-full px-3.5 py-2.5 text-sm rounded-[14px] border border-slate-205 dark:border-slate-800 bg-white dark:bg-slate-900 text-slate-800 dark:text-white focus:outline-none focus:border-green-500 focus:ring-1 focus:ring-green-500 resize-y"
-                    />
-                  </div>
-                  <button 
-                    type="submit"
-                    className="px-6 py-2.5 bg-green-500 hover:bg-green-600 text-white rounded-full text-xs font-bold self-start cursor-pointer transition-colors"
-                  >
-                    Post Comment
-                  </button>
-                </div>
-              </form>
-            </div>
+            {/* Comments UI Section Removed */}
 
           </article>
 
@@ -569,7 +477,7 @@ export default function ArticleDetail() {
             {/* Newsletter card widget */}
             <div className="p-6 rounded-[18px] bg-slate-900 text-white text-center shadow-soft relative overflow-hidden">
               <div className="absolute top-0 right-0 w-40 h-40 bg-green-500/10 rounded-full blur-2xl" />
-              <h4 className="font-display font-bold text-base mb-2">Subscribe to Demo AdSense</h4>
+              <h4 className="font-display font-bold text-base mb-2">Subscribe to TechAxioz</h4>
               <p className="text-xs text-slate-350 mb-6 font-sans">
                 Get our weekly articles on programming tips, Windows optimization, and laptop reviews direct to your email.
               </p>

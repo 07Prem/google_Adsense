@@ -9,8 +9,8 @@ export default function Advertise() {
   return (
     <>
       <SEOHead 
-        title="Advertise With Us - Demo AdSense Media Kit"
-        description="Learn about advertising, sponsored content, newsletter placements, and programmatic ad integrations on Demo AdSense."
+        title="Advertise With Us - TechAxioz Media Kit"
+        description="Learn about advertising, sponsored content, newsletter placements, and programmatic ad integrations on TechAxioz."
       />
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6 md:py-10">
@@ -23,7 +23,7 @@ export default function Advertise() {
           <div className="text-center mb-12">
             <DollarSign className="w-8 h-8 text-green-600 mx-auto mb-3" />
             <h1 className="font-display font-extrabold text-3.5xl md:text-4.5xl text-slate-900 dark:text-white leading-tight">
-              Advertise on Demo AdSense
+              Advertise on TechAxioz
             </h1>
             <p className="text-base text-slate-500 dark:text-slate-400 mt-2 font-sans">
               Connect your developer tools, services, and hardware with our global audience.
@@ -33,7 +33,7 @@ export default function Advertise() {
 
           <div className="prose dark:prose-invert max-w-none text-slate-700 dark:text-slate-300 space-y-6 font-sans">
             <p className="text-base leading-relaxed">
-              **Demo AdSense** is a high-growth technology publication read by software engineers, frontend developers, SysAdmins, hardware enthusiasts, and students. By aligning your brand with our premium content, you can reach active buyers searching for developer tools and gear.
+              **TechAxioz** is a high-growth technology publication read by software engineers, frontend developers, SysAdmins, hardware enthusiasts, and students. By aligning your brand with our premium content, you can reach active buyers searching for developer tools and gear.
             </p>
 
             <h2 className="font-display font-bold text-xl sm:text-2xl text-slate-900 dark:text-white mt-8 mb-4">Our Traffic & Demographics</h2>
@@ -67,7 +67,7 @@ export default function Advertise() {
 
             <h2 className="font-display font-bold text-xl sm:text-2xl text-slate-900 dark:text-white mt-8 mb-4">Get Our Media Kit</h2>
             <p className="text-sm sm:text-base leading-relaxed">
-              If you are interested in advertising options, rates, and audience graphs, please email **advertise@demoadsense.com**. Our media team will send you our latest PDF Media Kit and schedule a campaign call.
+              If you are interested in advertising options, rates, and audience graphs, please email **advertise@techaxioz.com**. Our media team will send you our latest PDF Media Kit and schedule a campaign call.
             </p>
           </div>
 

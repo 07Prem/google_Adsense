@@ -11,8 +11,8 @@ export default function Authors() {
   return (
     <>
       <SEOHead 
-        title="Authors Directory - Demo AdSense Contributors"
-        description="Meet the technical writers, software engineers, and hardware specialists who author articles on Demo AdSense."
+        title="Authors Directory - TechAxioz Contributors"
+        description="Meet the technical writers, software engineers, and hardware specialists who author articles on TechAxioz."
       />
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6 md:py-10">
@@ -23,7 +23,7 @@ export default function Authors() {
         <div className="my-8 md:my-12 text-center max-w-2xl mx-auto">
           <Users className="w-8 h-8 text-green-600 mx-auto mb-3" />
           <h1 className="font-display font-extrabold text-3xl md:text-4xl text-slate-900 dark:text-white">
-            Demo AdSense Authors
+            TechAxioz Authors
           </h1>
           <p className="text-sm md:text-base text-slate-500 dark:text-slate-400 mt-2 font-sans">
             Our content is written and audited by veteran developers, security professionals, and consumer hardware specialists.

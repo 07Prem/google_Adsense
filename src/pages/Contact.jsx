@@ -42,8 +42,8 @@ export default function Contact() {
   return (
     <>
       <SEOHead 
-        title="Contact Demo AdSense"
-        description="Get in touch with the Demo AdSense editorial team, submit inquiries, suggest feedback, or report technical errors."
+        title="Contact TechAxioz"
+        description="Get in touch with the TechAxioz editorial team, submit inquiries, suggest feedback, or report technical errors."
       />
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6 md:py-10">
@@ -55,7 +55,7 @@ export default function Contact() {
           
           <div className="text-center mb-12">
             <h1 className="font-display font-extrabold text-3.5xl md:text-4.5xl text-slate-900 dark:text-white leading-tight">
-              Contact Demo AdSense
+              Contact TechAxioz
             </h1>
             <p className="text-base text-slate-500 dark:text-slate-400 mt-2 font-sans">
               Have a question or feedback? We would love to hear from you.
@@ -77,7 +77,7 @@ export default function Contact() {
                     <Mail className="w-5 h-5 text-green-400 mt-1 flex-shrink-0" />
                     <div>
                       <span className="text-xs text-slate-400 block font-semibold">Email Us</span>
-                      <a href="mailto:support@demoadsense.com" className="text-sm hover:underline text-white font-medium">support@demoadsense.com</a>
+                      <a href="mailto:support@techaxioz.com" className="text-sm hover:underline text-white font-medium">support@techaxioz.com</a>
                     </div>
                   </div>
 
@@ -105,16 +105,16 @@ export default function Contact() {
               <div className="pt-8 border-t border-slate-800/80 mt-10">
                 <span className="text-xs text-slate-400 uppercase tracking-widest block mb-4">Follow Our Updates</span>
                 <div className="flex items-center space-x-3">
-                  <a href="https://github.com/demoadsense" target="_blank" rel="noopener noreferrer" className="p-2 rounded-[14px] bg-slate-800 hover:bg-green-600 transition-colors text-white" aria-label="GitHub">
+                  <a href="https://github.com/techaxioz" target="_blank" rel="noopener noreferrer" className="p-2 rounded-[14px] bg-slate-800 hover:bg-green-600 transition-colors text-white" aria-label="GitHub">
                     <Github className="w-4 h-4" />
                   </a>
-                  <a href="https://twitter.com/demoadsense" target="_blank" rel="noopener noreferrer" className="p-2 rounded-[14px] bg-slate-800 hover:bg-green-600 transition-colors text-white" aria-label="Twitter">
+                  <a href="https://twitter.com/techaxioz" target="_blank" rel="noopener noreferrer" className="p-2 rounded-[14px] bg-slate-800 hover:bg-green-600 transition-colors text-white" aria-label="Twitter">
                     <Twitter className="w-4 h-4" />
                   </a>
-                  <a href="https://linkedin.com/company/demoadsense" target="_blank" rel="noopener noreferrer" className="p-2 rounded-[14px] bg-slate-800 hover:bg-green-600 transition-colors text-white" aria-label="LinkedIn">
+                  <a href="https://linkedin.com/company/techaxioz" target="_blank" rel="noopener noreferrer" className="p-2 rounded-[14px] bg-slate-800 hover:bg-green-600 transition-colors text-white" aria-label="LinkedIn">
                     <Linkedin className="w-4 h-4" />
                   </a>
-                  <a href="https://facebook.com/demoadsense" target="_blank" rel="noopener noreferrer" className="p-2 rounded-[14px] bg-slate-800 hover:bg-green-600 transition-colors text-white" aria-label="Facebook">
+                  <a href="https://facebook.com/techaxioz" target="_blank" rel="noopener noreferrer" className="p-2 rounded-[14px] bg-slate-800 hover:bg-green-600 transition-colors text-white" aria-label="Facebook">
                     <Facebook className="w-4 h-4" />
                   </a>
                 </div>
@@ -132,7 +132,7 @@ export default function Contact() {
                   <div>
                     <span className="font-display font-bold text-sm block">Message Sent Successfully!</span>
                     <p className="text-xs font-sans mt-0.5 leading-relaxed">
-                      Thank you for contacting Demo AdSense. Our support team will review your ticket and reply within 24-48 business hours.
+                      Thank you for contacting TechAxioz. Our support team will review your ticket and reply within 24-48 business hours.
                     </p>
                   </div>
                 </div>

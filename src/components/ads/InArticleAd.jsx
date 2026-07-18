@@ -27,7 +27,7 @@ export default function InArticleAd() {
           </script>
         */}
         <div className="text-center">
-          <p className="text-sm font-bold text-white">Demo AdSense In-Article Ad</p>
+          <p className="text-sm font-bold text-white">TechAxioz In-Article Ad</p>
           <p className="text-[11px] text-slate-400 font-medium mt-1">Native Fluid Ad (Optimized for paragraph breaks)</p>
         </div>
       </div>
