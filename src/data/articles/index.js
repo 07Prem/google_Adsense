@@ -3,6 +3,10 @@ import { hardwareArticles } from './hardware';
 import { guidesArticles } from './guides';
 import { programming1Articles } from './programming_1';
 import { programming2Articles } from './programming_2';
+import { programmingGeneratedArticles } from './generated_programming';
+import { frontendGeneratedArticles } from './generated_frontend';
+import { systemsGeneratedArticles } from './generated_systems';
+import { mobile_aiGeneratedArticles } from './generated_mobile_ai';
 
 // Combine all articles into a single registry array
 export const articles = [
@@ -10,7 +14,11 @@ export const articles = [
   ...hardwareArticles,
   ...guidesArticles,
   ...programming1Articles,
-  ...programming2Articles
+  ...programming2Articles,
+  ...programmingGeneratedArticles,
+  ...frontendGeneratedArticles,
+  ...systemsGeneratedArticles,
+  ...mobile_aiGeneratedArticles
 ];
 
 // Helper utilities for articles data fetching
