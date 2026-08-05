@@ -24,14 +24,14 @@ export default function BottomAd() {
     <div className="w-full flex justify-center py-4 bg-white dark:bg-slate-800 rounded-lg shadow-sm border border-slate-100 dark:border-slate-700/50">
       {isMobile ? (
         <AdsterraAd
-          adKey="30605027"
+          adKey="4e609dd97c6f22d599360d402714c367"
           format="iframe"
           height={50}
           width={320}
         />
       ) : (
         <AdsterraAd
-          adKey="30605026"
+          adKey="fcf46ae8c10dd8ce2742b8bc04ddb83b"
           format="iframe"
           height={90}
           width={728}
